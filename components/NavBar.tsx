@@ -16,7 +16,7 @@ import { cn } from "@/lib/utils";
 const NavBar = () => {
   const pathname = usePathname();
   return (
-    <nav className="flex justify-between py-4 px-3 bg-slate-800 text-white relative w-full">
+    <nav className="flex justify-between py-4 px-3 bg-gray-950 text-white relative w-full">
       <div className="font-mono text-2xl text-red-600 flex">
         <img src="/logo.png" alt="Logo" className="w-[30px] mr-2" />
         <a href="/">
