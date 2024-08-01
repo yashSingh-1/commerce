@@ -55,7 +55,7 @@ export const FetchingPoster = async () => {
   const query = '*[_type == "logo_poster"]';
   const poster = await client.fetch(query);
 
-  // console.log("Poster in the fetching part", poster)
+  console.log("Poster in the fetching part", poster)
 
   return poster;
 

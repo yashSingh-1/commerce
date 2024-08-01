@@ -84,7 +84,11 @@ const SingleProduct = async ({
           </div>
         </div>
         <div className="max-w-[350px] md:max-w-[600px] mx-auto mt-auto" id="designs">
-              <CarouselItems img={urlFor(photos.productImage3.asset).url()} />
+              <CarouselItems img={urlFor(photos.productImage3.asset).url()}
+                img1={urlFor(photos.productImage.asset).url()}
+                img2={urlFor(photos.productImage2.asset).url()}
+                img3={urlFor(photos.productImage4.asset).url()}
+              />
             </div>
             <div className="max-w-[350px] md:max-w-[500px] m-auto pb-5">
               <Questions />
